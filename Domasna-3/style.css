@@ -1,0 +1,112 @@
+h3 {
+    color: darkgreen;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: left;
+    text-decoration: underline;
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+h2 {
+    color: rgb(4, 4, 69);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    text-decoration: underline;
+    
+
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+.micro-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    
+}
+
+.center-table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+
+.center-micro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+
+.card{ 
+    background-color: rgba(139, 111, 19, 0.888);
+    border: 2px solid black( 115, 103, 103, 0.888);
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px rgba(141, 107, 59, 0.737);
+    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #110d0d;
+   
+
+}
+
+.card a {
+    color: rgb(145, 255, 0);
+    text-decoration: wavy;
+
+}
+
+.net {
+    color: rgb(140, 68, 5);
+    text-decoration: underline;
+    text-align: center;
+    }
+
+#link a {
+    color: saddlebrown;
+    border: 2px solid;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+
+}
+
+.texts {
+    background-color: rgb(91, 197, 145);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(70, 195, 153);
+    padding: 5px;
+    margin: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.Encyclopedia {
+    background-color: rgb(92, 194, 194);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(81, 169, 173);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(195, 196, 117);
+}
+
+
+
+
+
+
+
+
+
+
+
+
