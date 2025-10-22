@@ -1,0 +1,149 @@
+body {
+    background-color: rgb(200, 175, 10);
+    margin: 0;
+    padding: 0;
+    
+    
+    
+}
+
+.Image-1 {
+    width: 100%;
+    height: 150px;
+    
+    
+    
+}
+
+.menu {
+    position: sticky;
+    top: 0;
+    max-width: 100%;
+    display: flex;
+    width: 100%;
+    height: 30px;
+    padding: 20px;
+    gap: 10px;
+    justify-content: center;
+    background-color: rgb(184, 21, 12);
+    border-radius: 0 0 10px 10px;
+    border-bottom: 5px rgb(51, 53, 30) solid;
+    
+
+}
+    
+
+ .menu a {
+
+    color: yellow;
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    border: 2px solid rgb(201, 196, 48);
+    padding: 5px 10px;
+    border-radius: 5px;
+    
+ }
+
+    .menu a:hover {
+     color: rgb(185, 185, 114);
+     transition: 0.3 s;
+     box-shadow: 0 4 px 8px 0 rgba(208, 211, 12, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     transform: translateY(-2px);
+
+    
+}
+
+h2 {
+    
+text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(12, 12, 12);
+    padding: 20px 0 20px 0;
+    background-color: rgb(162, 21, 21);
+    border-radius: 10px;
+    border: yellow 2px solid;
+}
+
+h2:hover {
+    color: rgb(200, 200, 50);
+    transition: 0.3 s;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.Image-2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+
+}
+
+.Image-2:hover {
+    transform: scale(1.05);
+    transition: 0.3 s;
+    box-shadow: 0 4 px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(20, 20, 20);
+    padding: 5px 20px 5px 20px;
+    text-align: justify;
+}
+
+
+
+.sticky-1 {
+   position: sticky;
+   top: 50;
+}
+
+.sticky-2 {
+   position: sticky;
+   top: 100px;
+}
+
+.sticky-3 {
+   position: sticky;
+   top: 150px;
+}
+
+.sticky-4 {
+   position: sticky;
+   top: 200px;
+}
+
+footer { 
+    position: fixed;
+    background-color: rgb(184, 21, 12);
+    color: yellow;
+    padding: 0px;
+    bottom: 0;
+    width: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-top: 2px solid rgb(201, 196, 48);
+}
+
+footer p {
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
