@@ -1,0 +1,113 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.brand h1 {
+  font-size: 18px;
+}
+
+.search input {
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.top-actions .btn {
+  padding: 8px 12px;
+  margin-left: 10px;
+  border: none;
+  background-color: #111827;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.app {
+  display: flex;
+  flex: 1;
+  background-color: #f5f5f5;
+}
+
+.left-tools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #111827;
+  color: white;
+  width: 60px;
+  padding: 10px;
+}
+
+.tool {
+  background: none;
+  color: white;
+  border: none;
+  margin: 10px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.canvas {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.toolbar {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+}
+
+.artboards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.artboard {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  width: 300px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.right-panel {
+  width: 250px;
+  background-color: #fff;
+  border-left: 1px solid #ccc;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.status {
+  background-color: #fff;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  padding: 10px;
+}
